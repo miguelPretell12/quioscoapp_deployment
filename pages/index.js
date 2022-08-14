@@ -1,6 +1,6 @@
 import { PrismaClient } from "@prisma/client";
 import Layout from "../layout/Layout.js";
-import useQuiosco from "./hooks/useQuiosco.js";
+import useQuiosco from "../hooks/useQuiosco.js";
 import Producto from "./components/Producto";
 
 export default function Home() {
