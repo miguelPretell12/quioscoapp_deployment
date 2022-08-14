@@ -1,6 +1,6 @@
 import useQuiosco from "../hooks/useQuiosco";
 import Layout from "../layout/Layout.js";
-import ResumenProducto from "../components/resumenProducto";
+import ResumenProducto from "../components/resumenProducto.js";
 
 export default function Resumen() {
   const { pedido } = useQuiosco();
